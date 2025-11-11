@@ -42,7 +42,7 @@ html {
 .mainContainer {
     position: relative;
     padding: 25px;
-    margin-top: 50px;
+    margin: 50px 0px;
     background-color: var(--white);
     border-radius: 15px;
     width: 45vw;
@@ -148,4 +148,59 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px 0px;
+}
+
+.nutritionHeading {
+    font-family: 'Heading', serif;
+    padding: 15px 0px;
+    color: var(--brown-800);
+}
+
+.nutritionInfo {
+    color: var(--stone-600);
+    padding-bottom: 15px;
+}
+
+.value {
+    color: var(--brown-800);
+    font-weight: bold;
+}
+
+.gridItems {
+    padding-left: 30px
+}
+
+.item {
+    color: var(--stone-600)
+} 
+
+.calories {
+    border-bottom: 1px solid var(--stone-150);
+    padding-bottom: 10px;
+}
+
+.caloriesValue {
+    border-bottom: 1px solid var(--stone-150);
+    padding-bottom: 10px;
+}
+
+.carbs {
+    border-bottom: 1px solid var(--stone-150);
+    padding-bottom: 10px;
+}
+
+.carbsValue {
+    border-bottom: 1px solid var(--stone-150);
+    padding-bottom: 10px;
+}
+
+.protien {
+    border-bottom: 1px solid var(--stone-150);
+    padding-bottom: 10px;
+}
+
+.protienValue {
+    border-bottom: 1px solid var(--stone-150);
+    padding-bottom: 10px;
 }
