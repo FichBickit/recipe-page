@@ -120,3 +120,22 @@ hr {
     height: 1px;
     background-color: var(--stone-150);
 }
+
+.instructionsHeading {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Heading', serif;
+    color: var(--brown-800)
+}
+
+.stepOneLi::marker, .stepTwoLi::marker, .stepThreeLi::marker, .stepFourLi::marker, .stepFiveLi::marker, .stepSixLi::marker {
+    color: var(--brown-800);
+    font-weight: bold;
+}
+
+.stepOneLi, .stepTwoLi, .stepThreeLi, .stepFourLi, .stepFiveLi, .stepSixLi {
+    padding-left: 10px;
+    padding-bottom: 15px;
+    margin-left: 20px;
+    color: var(--stone-600);
+}
