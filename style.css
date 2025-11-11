@@ -110,3 +110,13 @@ html {
 .eggsLi::marker, .saltLi::marker, .pepperLi::marker, .butterLi::marker, .optionalLi::marker {
     color: var(--brown-800);
 }
+
+.ingredientsListItems {
+    padding-bottom: 15px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: var(--stone-150);
+}
