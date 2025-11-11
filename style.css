@@ -139,3 +139,13 @@ hr {
     margin-left: 20px;
     color: var(--stone-600);
 }
+
+.instructionsListItems {
+    padding-bottom: 15px;
+}
+
+.nutritionGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
